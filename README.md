@@ -17,8 +17,8 @@ An important point on our website is the "Inquiry" page. Here our customers shou
 * Portfolio
   * Weddings
   * Couples
-* Services
 * Pricing
+* Blog
 * Inquiry
 * Imprint
 * Privacy Policy
@@ -49,15 +49,16 @@ This page is intended to give visitors an overview of our work as wedding photog
 
 This page is intended to give visitors an overview of our work as couple photographers.
 
-### Services
-*Title: "Our services for couple and wedding photography"*
-200 - 300 Words.
-
 ### Pricing
 *Title: "Pricing for couple and wedding photography"*
 
 The visitor receives an overview of our offers and their prices.
 XML data file.
+
+### Blog
+*Title: "Blog - Rings and Kisses"*
+
+We want a blog on our website where we can write small posts and inform the customer about current promotions.
 
 ### Inquiry
 *Title: "Book us for your couple or wedding shoot"*
