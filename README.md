@@ -1,4 +1,5 @@
 # ringsandkisses
+# Rings and Kisses
 Couple and wedding photography
 
 Domain: rings-and-kisses.com
