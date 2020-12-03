@@ -38,7 +38,7 @@ We want to introduce ourselves to the visitors of our website, tell them why we 
 
 This page should redirect the customer to a subpage, depending on what he is interested in.
 
-### * Weddings
+#### Weddings
 *Title: "Wedding photography portfolio"*
 
 This page is intended to give visitors an overview of our work as wedding photographers.
