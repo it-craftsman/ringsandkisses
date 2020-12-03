@@ -26,10 +26,14 @@ An important point on our website is the "Inquiry" page. Here our customers shou
 ### Home
 *Title: "Couple and wedding photography - Rings and Kisses"*
 
+*Filename: index.html*
+
 Here visitors to our website should get a quick overview of what we are all about.
 
 ### About
 *Title: "About Rings and Kisses"*
+
+*Filename: about.html*
 
 We want to introduce ourselves to the visitors of our website, tell them why we are the best choice and what makes us unique.
 
@@ -38,20 +42,28 @@ We want to introduce ourselves to the visitors of our website, tell them why we 
 ### Portfolio
 *Title: "Couple and wedding photography portfolio"*
 
+*Filename: portfolio.html*
+
 This page should redirect the customer to a subpage, depending on what he is interested in.
 
 #### Weddings
 *Title: "Wedding photography portfolio"*
+
+*Filename: weddings.html*
 
 This page is intended to give visitors an overview of our work as wedding photographers.
 
 #### Couple
 *Title: "Couple photography portfolio"*
 
+*Filename: couple.html*
+
 This page is intended to give visitors an overview of our work as couple photographers.
 
 ### Pricing
 *Title: "Pricing for couple and wedding photography"*
+
+*Filename: pricing.html*
 
 The visitor receives an overview of our offers and their prices.
 XML data file (sessions.xml).
@@ -59,20 +71,28 @@ XML data file (sessions.xml).
 ### Blog
 *Title: "Blog - Rings and Kisses"*
 
+*Filename: blog.html*
+
 We want a blog on our website where we can write small posts and inform the customer about current promotions.
 
 ### Inquiry
 *Title: "Book us for your couple or wedding shoot"*
+
+*Filename: inquiry.html*
 
 A contact form is to be integrated on this page with which inquiries can be sent to us.
 
 ### Imprint
 *Title: "Rings and Kisses - Imprint"*
 
+*Filename: imprint.html*
+
 Mandatory for companies in Germany.
 
 ### Privacy Policy
 *Title: "Rings and Kisses - Privacy Policy"*
+
+*Filename: privacy.html*
 
 Mandatory for companies in Germany.
 
