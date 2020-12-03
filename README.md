@@ -75,3 +75,18 @@ Mandatory for companies in Germany.
 *Title: "Rings and Kisses - Privacy Policy"*
 
 Mandatory for companies in Germany.
+
+## Requierements
+
+We wish to have a modern web design that is both user-friendly and elegant. We don't need too much color in our web design because our images are colorful enough.
+The web design should be bright. White is best, as the color is associated with weddings.
+
+As a font we imagine a serif font like "Playfair Display" or "Arapey" in the color #6b6764.
+
+We want to have a logo designed, maybe a minimalistic version of a camera, that should appear in the header of the website on every site.
+
+You find our images and our video content right here in this repository. The images are sorted in couple and wedding. All couple images must be displayed in the subpage "couples" and all wedding images must be displayed in the subpage "weddings". You can also use this images for the web design, for example as header images.   
+
+We are not sure where to put the video content. Maybe it looks good on "home" or maybe it will fit better on the "portfolio" page. We are open for your opinion.
+
+The text for the website is still in work, so we would appreciate you to use some filler texts.
