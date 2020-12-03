@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT sessions (session*)>
+<!ELEMENT session (title, duration, amount-photos-digital, amount-photos-printed?, description?, price)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT duration (#PCDATA)>
+<!ELEMENT amount-photos-digital (#PCDATA)>
+<!ELEMENT amount-photos-printed (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT price (#PCDATA)>

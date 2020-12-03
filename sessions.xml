@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sessions SYSTEM "sessions.dtd">
+<sessions>
+  <session>
+    <title>Wedding Photography: Bronze</title>
+    <duration>8</duration>
+    <amount-photos-digital>600</amount-photos-digital>
+		<amount-photos-printed>15</amount-photos-printed>
+		<description>Wedding photography session with 8 hours of accompaniment. Images are delivered in an online gallery including a download link. You will also receive 15 printed photos in a photo box.</description>
+    <price>1990,00</price>
+  </session>
+	<session>
+    <title>Wedding Photography: Silver</title>
+    <duration>10</duration>
+    <amount-photos-digital>800</amount-photos-digital>
+		<amount-photos-printed>20</amount-photos-printed>
+		<description>Wedding photography session with 10 hours of accompaniment. Images are delivered in an online gallery including a download link. You will also receive 20 printed photos in a photo box.</description>
+    <price>2290,00</price>
+  </session>
+	<session>
+    <title>Wedding Photography: Gold</title>
+    <duration>12</duration>
+    <amount-photos-digital>1000</amount-photos-digital>
+		<amount-photos-printed>25</amount-photos-printed>
+		<description>Wedding photography session with 12 hours of accompaniment. Images are delivered in an online gallery including a download link. You will also receive 25 printed photos in a photo box.</description>
+    <price>2290,00</price>
+  </session>
+	<session>
+    <title>Wedding Photography: Copper</title>
+    <duration>4</duration>
+    <amount-photos-digital>200</amount-photos-digital>
+		<description>Wedding photography session with 4 hours of accompaniment. Images are delivered in an online gallery including a download link.</description>
+    <price>890,00</price>
+  </session>
+	<session>
+    <title>Couple Photography: Basic</title>
+    <duration>1</duration>
+    <amount-photos-digital>15</amount-photos-digital>
+		<description>Couple photography session with one hour of shooting time. Images are delivered in an online gallery including a download link.</description>
+    <price>340,00</price>
+  </session>
+	<session>
+    <title>Couple Photography: Advanced</title>
+    <duration>1,5</duration>
+    <amount-photos-digital>60</amount-photos-digital>
+		<description>Couple photography session with one and a half hours of shooting time. Images are delivered in an online gallery including a download link.</description>
+    <price>340,00</price>
+  </session>
+</sessions>
