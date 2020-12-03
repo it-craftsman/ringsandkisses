@@ -32,6 +32,7 @@ Here visitors to our website should get a quick overview of what we are all abou
 *Title: "About Rings and Kisses"*
 
 We want to introduce ourselves to the visitors of our website, tell them why we are the best choice and what makes us unique.
+300 - 400 Words.
 
 ### Portfolio
 *Title: "Couple and wedding photography portfolio"*
@@ -50,11 +51,13 @@ This page is intended to give visitors an overview of our work as couple photogr
 
 ### Services
 *Title: "Our services for couple and wedding photography"*
+200 - 300 Words.
 
 ### Pricing
 *Title: "Pricing for couple and wedding photography"*
 
 The visitor receives an overview of our offers and their prices.
+XML data file.
 
 ### Inquiry
 *Title: "Book us for your couple or wedding shoot"*
