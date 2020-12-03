@@ -32,6 +32,7 @@ Here visitors to our website should get a quick overview of what we are all abou
 *Title: "About Rings and Kisses"*
 
 We want to introduce ourselves to the visitors of our website, tell them why we are the best choice and what makes us unique.
+
 300 - 400 Words.
 
 ### Portfolio
