@@ -54,7 +54,7 @@ This page is intended to give visitors an overview of our work as couple photogr
 *Title: "Pricing for couple and wedding photography"*
 
 The visitor receives an overview of our offers and their prices.
-XML data file.
+XML data file (sessions.xml).
 
 ### Blog
 *Title: "Blog - Rings and Kisses"*
@@ -81,7 +81,7 @@ Mandatory for companies in Germany.
 We wish to have a modern web design that is both user-friendly and elegant. We don't need too much color in our web design because our images are colorful enough.
 The web design should be bright. White is best, as the color is associated with weddings.
 
-As a font we imagine a serif font like "Playfair Display" or "Arapey" in the color #6b6764.
+As a font we imagine a serif font like ["Playfair Display"](https://fonts.google.com/specimen/Playfair+Display?query=Playfa) or ["Arapey"](https://fonts.google.com/specimen/Arapey?query=Arap) in the color #6b6764.
 
 We want to have a logo designed, maybe a minimalistic version of a camera, that should appear in the header of the website on every site.
 
