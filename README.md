@@ -31,8 +31,9 @@ Rings and Kisses stands for unique moments full of emotions that leave our custo
 
 *Filename: about.html*
 
+We love photos that are full of emotions. That is why we have specialized in couple and wedding photography. 
 Our business is located in Cottbus, near Berlin. We offer our services worldwide and take photos with our customers wherever they want.
-There are moments that you like to share. We turn your experiences into memories for your future. With high-resolution image quality, drone photography and many other features, it is highly professional for you.
+Regardless of whether you are interested in a unique couple shooting or a professional wedding companion, we are exactly the right photographer. We turn your experiences into memories for your future. With high-resolution image quality, drone photography and many other features, it is highly professional for you.
 
 ### Portfolio
 *Title: "Couple and wedding photography portfolio"*
