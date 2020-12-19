@@ -1,13 +1,17 @@
-#Project Website
+# Rings and Kisses
+
+Project Website
+--------------------
 This repository contains the files used for generating the website.
 
-#Milestone
--First design for homepage
--Second design (if required)
--Addtional changes
--After Design get ready, add the required pages
--Filter the data, add pictures and videos
--Discus with client for additional changes
+Milestones
+--------------------
+- 'step1' - First design for homepage for preview 
+- 'step2' - Second design (if required)
+- 'step3' - Addtional changes
+- 'step4' - After Design get ready, add the required pages
+- 'step5' - Filter the data, add pictures and videos
+- 'step6' - Discuss with client for additional changes
 
 Repository structure
 --------------------
@@ -17,6 +21,6 @@ Repository structure
 - 'files' - stores files used in pages
 - 'images' - stores the images used in pages
 
--
-#License
+License
+--------------------
 This project is only for study purposes
