@@ -4,34 +4,107 @@
 
 /* Style the body */
 body {
-  font-family: Arial, Helvetica, sans-serif;
-  margin: 0;
+  font-family: 'Playfair Display', serif;
 }
 
+.item-b {
+  grid-column: 1/6;
+  grid-row: 1;
+  background-image: url("../../images/wedding/post04.jpg");
+  opacity: 80%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border-top: solid #000000 2px;
+  border-left: solid #000000 2px;
+  border-bottom: solid #000000 2px;
+  border-top-left-radius: 2%;
+}
+
+.item-c {
+  grid-column: 6/11;
+  grid-row: 1;
+  background-image: url("../../images/wedding/post06.jpg");
+  opacity: 80%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border-top-right-radius: 2%;
+  border: solid #000000 2px;
+}
+.item-d {
+  grid-column: 1/4;
+  grid-row: 2;
+  background-image: url("../../images/wedding/post11.jpg");
+  opacity: 80%;
+  background-repeat: no-repeat;
+  border-bottom: solid #000000 2px;
+  border-left: solid #000000 2px;
+  border-right: solid #000000 2px;
+  border-bottom-left-radius: 2%;
+}
+.item-e {
+  grid-column: 4/11;
+  grid-row: 2;
+  background-image: url("../../images/wedding/post09.jpg");
+  overflow: hidden;
+  opacity: 80%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border-right: solid #000000 2px;
+  border-bottom: solid #000000 2px;
+  border-bottom-right-radius: 2%;
+}
+
+.container {
+  margin-top: 5px;
+  display: grid;
+  grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+  grid-template-rows: 400px 600px;
+}
+
+.overlay {
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  flex: content-box;
+  background: rgba(220, 214, 214, 0.0);
+  border-radius: 8px;
+  filter: blur(0.1rem);
+}
+
+.overlay:hover{
+  filter: blur(0.0rem);
+  background: rgba(220, 214, 214, 0.6);
+}
 /* Header/logo Title */
-.header {
-  padding: 80px;
+header {
+  background-image: url("../../images/wedding/post16-3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10px;
   text-align: center;
-  background: pink;
+  background-color: pink;
   color: white;
 }
 
 /* Increase the font size of the heading */
-.header h1 {
+header h1 {
   font-size: 40px;
 }
 
 /* Sticky navbar - toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed). The sticky value is not supported in IE or Edge 15 and earlier versions. However, for these versions the navbar will inherit default position */
-.navbar {
+nav {
+    margin-top: 5px;
   overflow: hidden;
-  background-color: #333;
+  background-color: #666;
+    opacity: 0.9;
   position: sticky;
   position: -webkit-sticky;
   top: 0;
 }
 
 /* Style the navigation bar links */
-.navbar a {
+nav a {
   float: left;
   display: block;
   color: white;
@@ -42,29 +115,23 @@ body {
 
 
 /* Right-aligned link */
-.navbar a.right {
+nav a.right {
   float: right;
 }
 
 /* Change color on hover */
-.navbar a:hover {
-  background-color: #ddd;
+nav a:hover {
+  background-color: #666;
   color: black;
 }
 
 /* Active/current link */
-.navbar a.active {
-  background-color: #666;
+nav a.active {
+  background-color: #333;
   color: white;
 }
 
 /* Column container */
-.row {  
-  display: -ms-flexbox; /* IE10 */
-  display: flex;
-  -ms-flex-wrap: wrap; /* IE10 */
-  flex-wrap: wrap;
-}
 
 /* Create two unequal columns that sits next to each other */
 /* Sidebar/left column */
@@ -76,13 +143,6 @@ body {
 }
 
 
-/* Main column */
-.main {   
-  -ms-flex: 10%; /* IE10 */
-  flex: 10%;
-  background-color: white;
-  padding: 20px;
-}
 
 /* Fake image, just for this example */
 .fakeimg {
@@ -93,8 +153,9 @@ body {
 
 /* Footer */
 .footer {
-  padding: 20px;
-  width:100%
+  padding: 10px;
+    margin-top: 5%;
+  width:100%;
   text-align: center;
   background: #ddd;
 }
