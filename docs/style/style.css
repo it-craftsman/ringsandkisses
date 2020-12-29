@@ -4,74 +4,95 @@
 
 /* Style the body */
 body {
-  font-family: 'Playfair Display', serif;
+  --font-family: 'Playfair Display', serif;
     background-color:#ebebeb;
+	 padding: 4em;
+  line-height: 1.15;
 }
 
 .container-a{
-  margin-bottom:5px;
-  display: grid;
-    grid-template-columns: auto auto auto auto auto auto auto auto auto auto ;
-  grid-template-rows:390px;
+ margin-bottom:5px;
+ display: flex;
   position: relative;
+  max-width: auto;
   color: black;
-    align-content: space-evenly;
+  align-content: space-evenly;
 }
 
 .item-h{
-  grid-column: 1/5;
-  grid-row: 1;
-  opacity:90%;
-  background-repeat: no-repeat;
   color:black;
-  width:45%;
   position:relative;
   padding-left:5%;
+  position:relative;
+  padding-right:5%;
+ background-color:#ead4be;opacity:0.6;
 }
 
 .item-i{
-  grid-column: 9/11;
-  grid-row: 1;
-  opacity:90%;
   color:black;
-  width:100%;
-  padding-left:5%;
-  padding-right:25%;
   position:relative;
+   padding:5%;
+  font-size:20px;
 }
 
+.about-section {
+	margin-top:10px;
+  text-align: center;
+  background-color: ;
+  color: black;
+  font-family: FreeMono, monospace;
+    align-content: space-evenly;
+     position: relative;
+	  line-height: 1.6;
+	  font-size:18px;
+	  padding:10px;
+	  border-right-style: solid;
+	  border-left-style: solid;
+	  margin-bottom:15px;
+	   background-image: url("../images/dots.jpeg");
+	   background-repeat:no;
+	   opacity:0.3;
+	   padding:20px;
+	   margin-bottom:30px;
+}
+hr.new2 {
+  border-top: 1px dashed black;
+  width:300px;
+}
+.about-section h1{
+	 font-family: 'Courier New', monospace;
+	 font-size:60px;
+}
 
 .container {
-  margin-top:5px;
-   display: grid;
-  grid-template-columns: auto auto auto auto auto auto auto auto auto auto ;
-  grid-template-rows:800px;
-  position: relative;
-  color: black;
-  padding-left:1%;
+   display: flex;
+  color: white;
   padding-right:1%;
-  padding-bottom:5%;
-  background-color:#ebebeb;
   font-family: Georgia, serif;
-  
+  max-width: auto;
+  position: relative;
+  margin: auto;
 }
 
 .item-b {
-  grid-column: 1/6;
-  grid-row: 1;
-  background-image: url("../images/post09.jpg");
   opacity:70%;
   background-size: 100%;
   background-repeat: no-repeat;
+  width:100%;
 }
 
 .item-c {
-  grid-column: 6/11;
-  grid-row: 1;
-  background-image: url("../images/post06.jpg");
   opacity:70%;
   background-size: 100%;
   background-repeat: no-repeat;
+  width:100%;
+}
+
+.center{
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -220%);
 }
 
 #text{
@@ -97,22 +118,23 @@ font-family:Lucida Sans Unicode;
   font-family: Georgia, serif;
   line-height: 1.6;
 }
-#text4{
-  position: relative;
-  font-family: Chalkduster, fantasy;
-   line-height: 1.6;
+
+
+.item-d{
+  color:black;
+  position:relative;
+  padding-left:5%;
+  position:relative;
+  padding-right:5%;
+ background-color:#ead4be;opacity:0.3;
+   width:100%;
+     padding-top:5%;
+  padding-bottom:5%;
+  justify-content:center;
+   max-width: auto;
 }
 
-.container-b{
-  display: grid;
-  grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
-  grid-template-rows:100%;
-  position: relative;
-  color: black;
-  align-content: space-evenly;
-}
-
-.container-b .btn {
+ .item-d .btn {
   position: relative;
   top: 50%;
   left: 50%;
@@ -127,62 +149,41 @@ font-family:Lucida Sans Unicode;
   text-align: center;
 }
 
-.container-b .btn:hover {
+.item-d .btn:hover {
   background-color: black;
 }
 
-.item-d {
-  grid-column: 1/11;
-  grid-row: 1;
-   background-image: url("../images/gallery/abc.jpg");
-   opacity:90%;
-  background-size: 100%;
-  background-repeat: no-repeat;
-  color:white;
-  padding-top:5%;
-  padding-bottom:5%;
-  justify-content:center;
-}
-
 .container-g{
-  display: grid;
-  grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
-  grid-template-rows:100%;
+  display: flex;
   position: relative;
   color: black;
-    align-content: space-evenly;
+  align-content: space-evenly;
+  flex-direction: row;
+  flex-wrap:wrap;
+  padding:2%
 }
 
 
 .item-e{
-  grid-column: 1/3;
-   background-image: url("../images/gallery/couple.jpg");
+	flex:25%;
    opacity:90%;
-  background-size: 100%;
-  background-repeat: no-repeat;
   color:white;
 }
-
 .item-f{
-  grid-column: 5/7;
+   flex:30%;
    opacity:90%;
-  background-size: 100%;
-  background-repeat: no-repeat;
-  width:100px;
   color:black;
-  width:500px;
+  padding-right:10%;
 }
 
 .item-g{
-  grid-column: 9/10;
-  grid-row: 1;
-   opacity:90%;
-  background-size: 100%;
-  background-repeat: no-repeat;
+	flex:25%;
+  opacity:70%;
   color:black;
-  width:20%;
-  text-align:center;
-  position:relative;
+  width:1%;
+  font-family: 'Tangerine', serif;
+  font-size: 25px;
+  text-shadow: 4px 4px 4px #aaa;
 }
 
 
@@ -281,42 +282,38 @@ img {vertical-align: middle;}
 }
 
 /* Sticky navbar - toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed). The sticky value is not supported in IE or Edge 15 and earlier versions. However, for these versions the navbar will inherit default position */
-nav {
-    margin-top: 5px;
-  overflow: hidden;
-    opacity: 0.8;
-  position: sticky;
-  position: -webkit-sticky;
-  padding:20px;
-  padding-left:20px;
-  text-align:center;
-  float:center;
-  padding-top:20px;
-}
-
-/* dropown menu */
 ul {
+  position: -webkit-sticky;
   list-style-type: none;
-  margin: 0;
-  padding: 0;
+    text-decoration: none;
+    font-family: verdana;
   overflow: hidden;
-  background-color: ;
+   color: #6b6764;
+	text-align:center;
+	float:center;
+	    padding-left:25%;
+		padding-right:20%;
+	
 }
-
 li {
   float: left;
+  margin: 20px 40px 10px 32px;
+   font-size: 20px;
 }
 
 li a, .dropbtn {
   display: inline-block;
-  color: black;
+  color: #6b6764;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
+li a.active{
+	color:white;
+}
 
 li a:hover, .dropdown:hover .dropbtn {
-  background-color: ;
+  color:white;
 }
 
 li.dropdown {
@@ -325,52 +322,25 @@ li.dropdown {
 
 .dropdown-content {
   display: none;
-  position: relative;
-  background-color: ;
+  position: absolute;
+  background-color: #ebebeb;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
 
 .dropdown-content a {
-  color: black;
+  color: 6b6764;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
   text-align: left;
 }
 
-.dropdown-content a:hover {background-color: #f1f1f1;}
+.dropdown-content a:hover {background-color: #ebebeb;}
 
 .dropdown:hover .dropdown-content {
   display: block;
-}
-/* Style the navigation bar links */
-
-nav a{
-	display: inline-block;
-    text-decoration: none;
-    font-family: verdana;
-    font-size: 20px;
-    color: black;
-    margin: 15px 32px 0 32px;
-}
-
-/* Right-aligned link */
-nav a.right {
-  float: right;
-}
-
-/* Change color on hover */
-nav a:hover {
-  background-color: #666;
-  color: black;
-}
-
-/* Active/current link */
-nav a.active {
-  background-color: #333;
-  color: white;
 }
 
 /* Column container */

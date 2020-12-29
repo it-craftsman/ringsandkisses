@@ -2,58 +2,156 @@
 <html>
 <head>
 <style>
-.container {
- display: grid;
-  grid-template-columns: [first] auto [line2] auto [line3] ;
-  grid-template-rows: 800px
+body {
+  background: #001628;
+  color: #777;
+  padding: 4em;
+  font-family: sans-serif;
+  line-height: 1.15;
 }
 
-.item-a {
-  grid-column-start: first;
-  grid-column-end: line2;
-  grid-row-start: row1-start;
-  justify-self: stretch;
-  align-self: stretch;
-  justify-content: center;  
-    background-image: url("../images/post09.jpg");
+hr { /*dummy content*/
+  height: 6px;
+  border: none;
+  background: rgba(0, 0, 0, 0.1);
+} 
+
+hr:last-child {  /*dummy content*/
+  margin-right: 60%;
 }
-.item-b {
-  grid-column-start: line2;
-  grid-column-end: span line3;
-  grid-row-start: 2;
-  grid-row-end: span 2;
-  background-color:yellow;
-  justify-self: stretch;
-  align-self: stretch;
-    background-image: url("../images/post09.jpg");
+
+hr.image { /*dummy content*/
+  padding-bottom: 50%;
+} 
+
+.page {
+  padding: 2em;
+  background: #cecece;
+  max-width: auto;
+}
+
+.archive {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  grid-gap: 1em;
+}
+
+.article {
+  padding: 1em;
+  background: #fff;
+  box-shadow:
+    0 5px 10px rgba(0, 0, 0, 0.1),
+    0 20px 20px rgba(0, 0, 0, 0.05);
 }
 
 </style>
-</head>
-<body>
-<main>
-    <div class="container">
-        <div class="item-a">
-            <div class="overlay">
-                <h2 id="text"align="center">header</h2>
-            </div>
-        </div>
-        <div class="item-b">
-            <div class="overlay">
-            <h2 id="text">main</h2>
-            </div>
-        </div>
-		<div class="item-c">
-            <div class="overlay">
-                <h2 id="text">side</h2>
-            </div>
-        </div>
-		<div class="item-d">
-            <div class="overlay">
-                <h2 id="text">footer</h2>
-            </div>
-        </div>
-    </div>
-</main>
+<title>Hello!</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/reset.css">
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body class="container">
+ <div class="page">
+  <h1>LATEST NEWS</h1>
+  <div class="archive">
+    <article class="article">1
+      <hr class="image">
+      <hr>
+    </article>
+    <article class="article">2
+      <hr>
+      <hr>
+      <hr>
+      <hr>
+      <hr>
+    </article>
+    <article class="article">3
+      <hr>
+      <hr>
+      <hr>
+    </article>
+    <article class="article">4
+      <hr class="image"><hr>
+      <hr>
+      <hr>
+      <hr>
+      <hr>
+      <hr>
+    </article>
+    <article class="article">5
+      <hr>
+      <hr>
+      <hr>
+    </article>
+    <article class="article">6
+      <hr>
+      <hr>
+      <hr>
+    </article>
+    <article class="article">7
+      <hr>
+      <hr>
+      <hr>
+    </article>
+    <article class="article">8
+      <hr>
+      <hr>
+    </article>
+    <article class="article">9
+      <hr>
+      <hr>
+      <hr>
+    </article>
+    <article class="article">10
+      <hr>
+      <hr>
+    </article>
+    <article class="article">11
+      <hr>
+      <hr>
+      <hr>
+    </article>
+    <article class="article">12
+      <hr class="image"><hr>
+      <hr>
+      <hr>
+    </article>
+    <article class="article">13
+      <hr class="image"><hr>
+      <hr>
+    </article>
+    <article class="article">14
+      <hr>
+      <hr>
+      <hr>
+      <hr>
+      <hr>
+      <hr>
+      <hr>
+      <hr>
+      <hr>
+    </article>
+    <article class="article">15
+      <hr class="image">
+      <hr>
+      <hr>
+      <hr>
+      <hr>
+    </article>
+    <article class="article">16
+      <hr>
+      <hr>
+      <hr>
+      <hr>
+      <hr>
+      <hr>
+    </article>
+    <article class="article">17<hr>
+      <hr>
+      <hr></article>
+  </div>
+</div>
 </body>
 </html>
