@@ -2,18 +2,58 @@
 <html>
 <head>
 <style>
- body{
-   background-image: url('images/gallery/abc.jpg');
-   height:200px;
+.container {
+ display: grid;
+  grid-template-columns: [first] auto [line2] auto [line3] ;
+  grid-template-rows: 800px
 }
+
+.item-a {
+  grid-column-start: first;
+  grid-column-end: line2;
+  grid-row-start: row1-start;
+  justify-self: stretch;
+  align-self: stretch;
+  justify-content: center;  
+    background-image: url("../images/post09.jpg");
+}
+.item-b {
+  grid-column-start: line2;
+  grid-column-end: span line3;
+  grid-row-start: 2;
+  grid-row-end: span 2;
+  background-color:yellow;
+  justify-self: stretch;
+  align-self: stretch;
+    background-image: url("../images/post09.jpg");
+}
+
 </style>
 </head>
 <body>
-<div class="get-in">
-<h2>HTML Image</h2>
-<h2>Background Image</h2>
-
-<p>By default, the background image will repeat itself if it is smaller than the element where it is specified, in this case the body element.</p>
-</div>
+<main>
+    <div class="container">
+        <div class="item-a">
+            <div class="overlay">
+                <h2 id="text"align="center">header</h2>
+            </div>
+        </div>
+        <div class="item-b">
+            <div class="overlay">
+            <h2 id="text">main</h2>
+            </div>
+        </div>
+		<div class="item-c">
+            <div class="overlay">
+                <h2 id="text">side</h2>
+            </div>
+        </div>
+		<div class="item-d">
+            <div class="overlay">
+                <h2 id="text">footer</h2>
+            </div>
+        </div>
+    </div>
+</main>
 </body>
 </html>
