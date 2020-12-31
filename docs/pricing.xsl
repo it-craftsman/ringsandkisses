@@ -10,28 +10,65 @@
                 <meta charset="UTF-8"/>
                 <meta name="viewport" content="width=device-width, initial-scale=1"/>
                 <link rel="stylesheet" href="style/style.css"/>
-                <link rel="stylesheet" href="style/price.css"/>
                 <link rel="preconnect" href="https://fonts.gstatic.com"/>
-                <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&amp;display=swap" rel="stylesheet"/>
+                <link href="https://fonts.googleapis.com/css2?family=Dorsa&amp;family=Satisfy&amp;display=swap" rel="stylesheet"/>
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
             </head>
 
-            <header>
-                <img src="images/logo.svg" width="200" height="140"/>
-                <h1>Rings and Kisses</h1>
-                <p>Couple and Wedding Photography</p>
+                <nav>
+                    <ul>
+                        <li><a href="#" class="active">Home</a></li>
+                        <li class="dropdown">
+                            <a href="javascript:void(0)" class="dropbtn">INFO</a>
+                            <div class="dropdown-content">
+                                <a href="#">ABOUT ME</a>
+                                <a href="sessions.xml">PRICING</a>
+                            </div>
+                        </li>
+                        <li class="dropdown">
+                            <a href="javascript:void(0)" class="dropbtn">PORTFOLIO</a>
+                            <div class="dropdown-content">
+                                <a href="#">WEDDING PHOTOGRAPHY</a>
+                                <a href="#">COUPLES PHOTOGRPHY</a>
+                            </div>
+                        </li>
+                        <li><a href="#news">BLOG</a></li>
+                        <li><a href="#news">CONTACT</a></li>
+                    </ul>
+                </nav>
+
+<header>
+                <div class="slideshow-container">
+
+                    <h1>Rings &amp; Kisses</h1>
+                    <h2>Pricing</h2>
+
+                    <div class="mySlides fade">
+                        <img src="images/slideshow/1.jpg" alt="imaged"/>
+                    </div>
+
+                    <div class="mySlides fade">
+                        <img src="images/slideshow/2_1.jpg"/>
+                        <div class="text"></div>
+                    </div>
+
+                    <div class="mySlides fade">
+                        <div class="img-3">
+                            <img src="images/slideshow/3.jpg"/>
+                            <div class="text"></div>
+                        </div>
+
+                        <div style="text-align:center">
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                        </div>
+                    </div>
+
+                </div>
             </header>
 
-            <nav>
-                <a href="#" class="active">Home</a>
-                <a href="#">About</a>
-                <a href="#">Portfolio</a>
-                <a href="#">Pricing</a>
-                <a href="#">Inquiry</a>
-                <a href="#">Imprint</a>
-                <a href="#">Blog</a>
-            </nav>
             <main>
-        <h2>Price Packages</h2>
         <div class="pricing-box-container">
             <xsl:for-each select="sessions/session">
                 <div class="pricing-box text-center">
@@ -51,6 +88,28 @@
                         <a href="#" class="fa fa-instagram"></a>
                     </p>
                 </footer>
+
+                <script>
+                    let slideIndex = 0;
+                    showSlides();
+
+                    function showSlides() {
+                    let i;
+                    let slides = document.getElementsByClassName("mySlides");
+                    let dots = document.getElementsByClassName("dot");
+                    for (i = 0; i &lt; slides.length; i++) {
+                    slides[i].style.display = "none";
+                    }
+                    slideIndex++;
+                    if (slideIndex > slides.length) {slideIndex = 1}
+                    for (i = 0; i &lt; dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                    }
+                    slides[slideIndex-1].style.display = "block";
+                    dots[slideIndex-1].className += " active";
+                    setTimeout(showSlides, 6000); // Change image every 2 seconds
+                    }
+                </script>
             </body>
         </html>
     </xsl:template>

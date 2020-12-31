@@ -5,6 +5,109 @@
 body {
   font-family: 'Playfair Display', sans-serif;
 }
+main{
+  padding: 0;
+}
+/* Pricing box main display settings  */
+.pricing-box-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+h5,h6, .pricing-box-container p{
+  text-align: center;
+}
+h5{
+}
+
+.pricing-box {
+  flex: 1;
+  padding: 0 15px 15px;
+  margin: 2%;
+  min-width: 200px;
+  max-width: 250px;
+  border-color: transparent;
+  z-index: 1;
+}
+.pricing-box:nth-child(4n+1) {
+  background-image: linear-gradient(#ffffff, #e5b2a0) ;
+}
+
+.pricing-box:nth-child(4n+2), .price:nth-child(4n+2){
+  background-image: linear-gradient(#ffffff, #e5e3e3);
+}
+.pricing-box:nth-child(4n+3) {
+  background-image: linear-gradient(#ffffff, #fdddaf);
+}
+.pricing-box:nth-child(4n+4) {
+  background-image: linear-gradient(#ffffff, #f8cecd);
+}
+.pricing-box h5 {
+  text-transform: uppercase;
+}
+.pricing-box h6 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.price {
+  margin: 24px 0;
+  font-size: 36px;
+  font-weight: 900;
+  color: black;
+}
+
+.price sub, .price sup {
+  font-size: 16px;
+  font-weight: 100;
+}
+
+.features-list {
+  padding: 0;
+  list-style-type: none;
+}
+
+.features-list li {
+  font-weight: 100;
+  padding: 12px 0;
+}
+
+.features-list li:not(:last-of-type) {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.btn-primary {
+  border-radius: 25px;
+  border: none;
+  background-color: #EC1362;
+  color: #ffffff;
+  cursor: pointer;
+  padding: 10px 15px;
+  margin-top: 20px;
+  text-transform: uppercase;
+  transition: all 0.1s ease-in-out;
+}
+
+.btn-primary:hover {
+  box-shadow: 0px 2px 15px 0px rgba(0,0,0,0.5);
+  transform: translateY(-3px);
+}
+
+.pricing-box-bg-image {
+  background-size: cover;
+  background-position: center center;
+  color: #ffffff;
+}
+
+.pricing-box-bg-image .features-list li {
+  border-bottom-color: rgba(255, 255, 255, 1);
+}
+
+.pricing-box-bg-image .btn-primary {
+  background-color: #ffffff;
+  color: #000;
+}
 
 .item-b {
   grid-column: 1/6;
@@ -99,7 +202,6 @@ header h1 {
   color: #b1b1b1;
   font-size: 4rem;
 }
-
 header h2 {
   color: #7b7b7b;
   padding: 120px 20px;
@@ -110,6 +212,7 @@ header h2 {
   font-size: 1.5rem;
     z-index: 10;
 }
+
 header img {
   display: inline-block;
     position: center;
