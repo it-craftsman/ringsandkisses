@@ -213,7 +213,7 @@ header h3{
 /* slideshow */
 
 * {box-sizing: border-box;}
-body {font-family: Verdana, sans-serif;}
+body {font-family: Verd4na, sans-serif;}
 .mySlides {display: none;}
 img {vertical-align: middle;}
 
@@ -614,4 +614,43 @@ h5{
 .pricing-box-bg-image .btn-primary {
     background-color: #ffffff;
     color: #000;
+}
+.inquiry-main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    padding: 2px;
+    margin: 2px;
+}
+.inquiry-form{
+    padding-left: 5%;
+    padding-right: 0;
+    margin-right: 0;
+    justify-content: right;
+    flex-direction: column;
+    width: 40%;
+    height: 100%;
+}
+.inquiry-img img{
+    align-content: flex-start;
+    width: 26rem;
+    height: 100%;
+    justify-content: left;
+}
+@media screen and (min-width: 1000px) {
+.inquiry-img img {width: 40rem}
+}
+input, textarea{
+    box-shadow: none !important;
+    border: none;
+    width: 100%;
+    border-bottom: black solid 1px;
+    background-color: inherit;
+    text-align: left;
+}
+
+.inquiry-main button {
+    background-color: inherit;
+    border: solid darkgray 1px;
 }
