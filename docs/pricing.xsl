@@ -37,37 +37,11 @@
                     </ul>
                 </nav>
 
-<header>
-                <div class="slideshow-container">
-
-                    <h1>Rings &amp; Kisses</h1>
-                    <h2>Pricing</h2>
-
-                    <div class="mySlides fade">
-                        <img src="images/slideshow/1.jpg" alt="imaged"/>
-                    </div>
-
-                    <div class="mySlides fade">
-                        <img src="images/slideshow/2_1.jpg"/>
-                        <div class="text"></div>
-                    </div>
-
-                    <div class="mySlides fade">
-                        <div class="img-3">
-                            <img src="images/slideshow/3.jpg"/>
-                            <div class="text"></div>
-                        </div>
-
-                        <div style="text-align:center">
-                            <span class="dot"></span>
-                            <span class="dot"></span>
-                            <span class="dot"></span>
-                        </div>
-                    </div>
-
-                </div>
-            </header>
-
+                <header>
+                    <img src="images/logo.svg" width="120" height="90"/>
+                    <h1>RINGS &amp; KISSES</h1>
+                    <h3>Photography</h3>
+                </header>
             <main>
         <div class="pricing-box-container">
             <xsl:for-each select="sessions/session">
