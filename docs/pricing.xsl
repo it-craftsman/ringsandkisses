@@ -17,12 +17,12 @@
 
                 <nav>
                     <ul>
-                        <li><a href="#" class="active">Home</a></li>
+                        <li><a href="index.html">Home</a></li>
                         <li class="dropdown">
                             <a href="javascript:void(0)" class="dropbtn">INFO</a>
                             <div class="dropdown-content">
-                                <a href="#">ABOUT ME</a>
-                                <a href="sessions.xml">PRICING</a>
+                                <a href="about.html">ABOUT ME</a>
+                                <a href="sessions.xml" class="active">PRICING</a>
                             </div>
                         </li>
                         <li class="dropdown">
@@ -33,7 +33,7 @@
                             </div>
                         </li>
                         <li><a href="#news">BLOG</a></li>
-                        <li><a href="#news">CONTACT</a></li>
+                        <li><a href="inquiry.html">CONTACT</a></li>
                     </ul>
                 </nav>
 
@@ -43,6 +43,11 @@
                     <h3>Photography</h3>
                 </header>
             <main>
+                <div class="about-section">
+                    <h1>Pricing</h1>
+                    <h2>Our unique price-performance ratio has made our customers happy for a long time and determines you too. </h2>
+                       <h2>Trust in our reliability, quality and uniqueness.</h2>
+                </div>
         <div class="pricing-box-container">
             <xsl:for-each select="sessions/session">
                 <div class="pricing-box text-center">

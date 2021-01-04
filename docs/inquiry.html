@@ -12,11 +12,11 @@
 
 <nav>
     <ul>
-        <li><a href="#" class="active">Home</a></li>
+        <li><a href="index.html">Home</a></li>
         <li class="dropdown">
             <a href="javascript:void(0)" class="dropbtn">INFO</a>
             <div class="dropdown-content">
-                <a href="#">ABOUT ME</a>
+                <a href="about.html">ABOUT ME</a>
                 <a href="sessions.xml">PRICING</a>
             </div>
         </li>
@@ -28,7 +28,7 @@
             </div>
         </li>
         <li><a href="#news">BLOG</a></li>
-        <li><a href="#news">CONTACT</a></li>
+        <li><a href="#" class="active">CONTACT</a></li>
     </ul>
 </nav>
 
@@ -38,15 +38,17 @@
     <h3>Photography</h3>
 </header>
     <main>
+        <div class="about-section">
+            <h2>Conact</h2>
+<p> We'll find a date where it's worth taking photos.
+    We will not disappoint you. Contact us using this form.</p>
+        </div>
         <div class="inquiry-main">
             <div class="inquiry-img">
                 <img src="images/couple2/post15-3.jpg" alt=""/>
             </div>
-            <form class="inquiry-form inquiry-main" action="" method="post">
+                <form class="inquiry-form inquiry-main" method="get">
                 <h2>Show us your interest and just write to us. </h2>
-                   <p> We'll find a date where it's worth taking photos.
-                    We will not disappoint you. Contact us using this form.</p>
-                </h2>
                 <p>Your name<br/>
                     <label>
                         <input class="form-control" type="text" id="sender-name" name="sender-name">
@@ -64,9 +66,12 @@
                         <textarea class="form-control" name="message" id="message" cols="50" rows="8">
                         </textarea>
                     </label></p>
-                    <button onclick="sendForm();">test</button>
+                    <button onclick="sendForm();" type="submit" value="send">send</button>
             </form>
     </div>
+<script  type="text/javascript" src="scripts/script.js">
+
+</script>
 </main>
 
 
@@ -78,6 +83,5 @@
         <a href="#" class="fa fa-instagram"></a>
     </p>
 </footer>
-<script  type="text/javascript" src="scripts/script.js"/>
 </html>
 

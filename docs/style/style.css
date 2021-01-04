@@ -647,6 +647,7 @@ input, textarea{
     width: 100%;
     border-bottom: black solid 1px;
     background-color: inherit;
+    text-align: left;
 }
 
 .inquiry-main button {
