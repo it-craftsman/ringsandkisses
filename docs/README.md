@@ -21,6 +21,12 @@ Repository structure
 - 'files' - stores files used in pages
 - 'images' - stores the images used in pages
 
+Work Division
+--------------------
+- 'Adam' - Logo Creation, Initial Layout for the main page, responsible for creating and designing webpages include pricing.html, inquiry.html & portfolio.html
+- 'Ankur' - Layout design, responsible for creating and designing webpages include blog.html, about.html, imprint.html, couple.html & wedding.html
+- We consult on every page together for final design. 
+
 License
 --------------------
 This project is only for study purposes
