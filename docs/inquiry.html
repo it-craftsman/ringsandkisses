@@ -1,47 +1,59 @@
 <!DOCTYPE html>
-<p lang="en">
+<html lang="en">
 <head>
 <title>Title: "Book us for your couple or wedding shoot</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="style/style.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="stylesheet" href="style/style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dorsa&family=Satisfy&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script  type="text/javascript" src="scripts/script.js"></script>
 </head>
 
-<nav>
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li class="dropdown">
-            <a href="javascript:void(0)" class="dropbtn">INFO</a>
-            <div class="dropdown-content">
-                <a href="about.html">ABOUT ME</a>
-                <a href="sessions.xml">PRICING</a>
-            </div>
-        </li>
-        <li class="dropdown">
-            <a href="javascript:void(0)" class="dropbtn">PORTFOLIO</a>
-            <div class="dropdown-content">
-                <a href="#">WEDDING PHOTOGRAPHY</a>
-                <a href="#">COUPLES PHOTOGRPHY</a>
-            </div>
-        </li>
-        <li><a href="#news">BLOG</a></li>
-        <li><a href="#" class="active">CONTACT</a></li>
-    </ul>
-</nav>
+<body>
+<div class="topnav" id="myTopnav">
+  <div class="dropdown">
+    <button class="dropbtn">Contact 
+    </button>
+    <div class="dropdown-content">
+      <a href="inquiry.html">Inquiry</a>
+      <a href="imprint.html">Imprint</a>
+    </div>
+  </div> 
+   <div class="dropdown">
+    <button class="dropbtn">Info 
+    </button>
+    <div class="dropdown-content">
+      <a href="about.html">About Us</a>
+      <a href="pricing.html">Pricing</a>
+    </div>
+  </div> 
+  <div class="dropdown">
+    <button class="dropbtn">Portfolio 
+    </button>
+    <div class="dropdown-content">
+      <a href="wedding.html">Wedding Photography</a>
+      <a href="couple.html">Couples Photography</a>
+    </div>
+  </div> 
+  <a href="blog.html">Blog</a>
+    <a href="index.html" >Home</a>
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
 
 <header>
     <img src="images/logo.svg" width="120" height="90">
     <h1>RINGS & KISSES</h1>
     <h3>Photography</h3>
 </header>
+
     <main>
-        <div class="about-section">
-            <h2>Conact</h2>
-<p> We'll find a date where it's worth taking photos.
-    We will not disappoint you. Contact us using this form.</p>
+        <div class="about">
+            <h2>Contact Us!</h2>
+<p> <strong>We'll find a date where it's worth taking photos.
+    We will not disappoint you. <br/>Contact us using this form.</strong></p>
         </div>
         <div class="inquiry-main">
             <div class="inquiry-img">
@@ -66,7 +78,7 @@
                         <textarea class="form-control" name="message" id="message" cols="50" rows="8">
                         </textarea>
                     </label></p>
-                    <button onclick="sendForm();" type="submit" value="send">send</button>
+                    <button onclick="sendForm();" type="submit" value="send" class="button">send</button>
             </form>
     </div>
 <script  type="text/javascript" src="scripts/script.js">
@@ -75,13 +87,41 @@
 </main>
 
 
-
 <footer>
-    <p>
-        <a href="#" class="fa fa-facebook"></a>
-        <a href="#" class="fa fa-pinterest"></a>
-        <a href="#" class="fa fa-instagram"></a>
-    </p>
+    <h4 id="text3" >Follow me on Instagram</h4>
+    <div class="responsive">
+        <div class="gallery">
+            <img src="images/gallery/TF-web-DSC07641.jpg" alt="Cinque Terre" width="600" height="400">
+        </div>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+            <img src="images/gallery/post05-1.jpg" alt="Forest" width="600" height="400">
+        </div>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+            <img src="images/gallery/post11.jpg" alt="Northern Lights" width="600" height="400">
+        </div>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+            <img src="images/gallery/TF-web-DSC07487.jpg" alt="Mountains" width="600" height="400">
+        </div>
+    </div>
+    <div class="clearfix"></div>
+        <p>
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-pinterest"></a>
+            <a href="#" class="fa fa-instagram"></a>
+        </p>
+		<div class="copyright">
+  <a>@copyright 2020 Rings&Kisses</a>
+</div>
 </footer>
+</body>
 </html>
 
