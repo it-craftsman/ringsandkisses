@@ -6,36 +6,46 @@
         <html>
             <body>
             <head>
-                <title>Pricing</title>
-                <meta charset="UTF-8"/>
-                <meta name="viewport" content="width=device-width, initial-scale=1"/>
-                <link rel="stylesheet" href="style/style.css"/>
-                <link rel="preconnect" href="https://fonts.gstatic.com"/>
-                <link href="https://fonts.googleapis.com/css2?family=Dorsa&amp;family=Satisfy&amp;display=swap" rel="stylesheet"/>
-                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
-            </head>
+                <title>Pricing for couple and wedding photography</title>
+               <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="style/style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dorsa&family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script  type="text/javascript" src="scripts/script.js"></script>
+  </head>
 
-                <nav>
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li class="dropdown">
-                            <a href="javascript:void(0)" class="dropbtn">INFO</a>
-                            <div class="dropdown-content">
-                                <a href="about.html">ABOUT ME</a>
-                                <a href="sessions.xml" class="active">PRICING</a>
-                            </div>
-                        </li>
-                        <li class="dropdown">
-                            <a href="javascript:void(0)" class="dropbtn">PORTFOLIO</a>
-                            <div class="dropdown-content">
-                                <a href="#">WEDDING PHOTOGRAPHY</a>
-                                <a href="#">COUPLES PHOTOGRPHY</a>
-                            </div>
-                        </li>
-                        <li><a href="#news">BLOG</a></li>
-                        <li><a href="inquiry.html">CONTACT</a></li>
-                    </ul>
-                </nav>
+                <div class="topnav" id="myTopnav">
+  <div class="dropdown">
+    <button class="dropbtn">Contact 
+    </button>
+    <div class="dropdown-content">
+      <a href="inquiry.html">Inquiry</a>
+      <a href="imprint.html">Imprint</a>
+    </div>
+  </div> 
+   <div class="dropdown">
+    <button class="dropbtn">Info 
+    </button>
+    <div class="dropdown-content">
+      <a href="about.html">About Us</a>
+      <a href="pricing.xsl">Pricing</a>
+    </div>
+  </div> 
+  <div class="dropdown">
+    <button class="dropbtn">Portfolio 
+    </button>
+    <div class="dropdown-content">
+      <a href="wedding.html">Wedding Photography</a>
+      <a href="couple.html">Couples Photography</a>
+    </div>
+  </div> 
+  <a href="blog.html">Blog</a>
+    <a href="index.html" >Home</a>
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
 
                 <header>
                     <img src="images/logo.svg" width="120" height="90"/>
@@ -44,7 +54,7 @@
                 </header>
             <main>
                 <div class="about-section">
-                    <h1>Pricing</h1>
+                    <h1>Pricing for couple and wedding photography</h1>
                     <h2>Our unique price-performance ratio has made our customers happy for a long time and determines you too. </h2>
                        <h2>Trust in our reliability, quality and uniqueness.</h2>
                 </div>
@@ -60,13 +70,41 @@
         </div>
             </main>
 
-                <footer>
-                    <p>
-                        <a href="#" class="fa fa-facebook"></a>
-                        <a href="#" class="fa fa-pinterest"></a>
-                        <a href="#" class="fa fa-instagram"></a>
-                    </p>
-                </footer>
+               <footer>
+    <h4 id="text3" >Follow me on Instagram</h4>
+    <div class="responsive">
+        <div class="gallery">
+            <img src="images/gallery/TF-web-DSC07641.jpg" alt="Cinque Terre" width="600" height="400">
+        </div>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+            <img src="images/gallery/post05-1.jpg" alt="Forest" width="600" height="400">
+        </div>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+            <img src="images/gallery/post11.jpg" alt="Northern Lights" width="600" height="400">
+        </div>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+            <img src="images/gallery/TF-web-DSC07487.jpg" alt="Mountains" width="600" height="400">
+        </div>
+    </div>
+    <div class="clearfix"></div>
+        <p>
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-pinterest"></a>
+            <a href="#" class="fa fa-instagram"></a>
+        </p>
+		<div class="copyright">
+ <a href="privacy.html">@copyright 2020 Rings&Kisses</a>
+</div>
+</footer>
 
                 <script>
                     let slideIndex = 0;
