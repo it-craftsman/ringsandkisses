@@ -7,13 +7,13 @@
             <body>
             <head>
                 <title>Pricing for couple and wedding photography</title>
-               <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
- <link rel="stylesheet" href="style/style.css">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Dorsa&family=Satisfy&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+               <meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+ <link rel="stylesheet" href="style/style.css"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Dorsa&amp;family=Satisfy&amp;display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
   <script  type="text/javascript" src="scripts/script.js"></script>
   </head>
 
@@ -74,25 +74,25 @@
     <h4 id="text3" >Follow me on Instagram</h4>
     <div class="responsive">
         <div class="gallery">
-            <img src="images/gallery/TF-web-DSC07641.jpg" alt="Cinque Terre" width="600" height="400">
+            <img src="images/gallery/TF-web-DSC07641.jpg" alt="Cinque Terre" width="600" height="400"/>
         </div>
     </div>
 
     <div class="responsive">
         <div class="gallery">
-            <img src="images/gallery/post05-1.jpg" alt="Forest" width="600" height="400">
+            <img src="images/gallery/post05-1.jpg" alt="Forest" width="600" height="400"/>
         </div>
     </div>
 
     <div class="responsive">
         <div class="gallery">
-            <img src="images/gallery/post11.jpg" alt="Northern Lights" width="600" height="400">
+            <img src="images/gallery/post11.jpg" alt="Northern Lights" width="600" height="400"/>
         </div>
     </div>
 
     <div class="responsive">
         <div class="gallery">
-            <img src="images/gallery/TF-web-DSC07487.jpg" alt="Mountains" width="600" height="400">
+            <img src="images/gallery/TF-web-DSC07487.jpg" alt="Mountains" width="600" height="400"/>
         </div>
     </div>
     <div class="clearfix"></div>
@@ -102,7 +102,7 @@
             <a href="#" class="fa fa-instagram"></a>
         </p>
 		<div class="copyright">
- <a href="privacy.html">@copyright 2020 Rings&Kisses</a>
+ <a href="privacy.html">@copyright 2020 Rings&amp;Kisses</a>
 </div>
 </footer>
 
