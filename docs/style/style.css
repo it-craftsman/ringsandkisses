@@ -713,6 +713,9 @@ input, textarea{
     background-color: inherit;
     border: solid darkgray 1px;
 }
+.form-control {
+    text-align: left;
+}
 .copyright {
    position: relative;
    left: 0;
