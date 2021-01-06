@@ -53,7 +53,7 @@
                     <h3>Photography</h3>
                 </header>
             <main>
-                <div class="about-section">
+                <div class="about">
                     <h2>Pricing for couple and wedding photography</h2>
                     <p>Our unique price-performance ratio has made our customers happy for a long time and determines you too. </p>
                        <p>Trust in our reliability, quality and uniqueness.</p>
