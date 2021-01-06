@@ -54,9 +54,9 @@
                 </header>
             <main>
                 <div class="about-section">
-                    <h1>Pricing for couple and wedding photography</h1>
-                    <h2>Our unique price-performance ratio has made our customers happy for a long time and determines you too. </h2>
-                       <h2>Trust in our reliability, quality and uniqueness.</h2>
+                    <h2>Pricing for couple and wedding photography</h2>
+                    <p>Our unique price-performance ratio has made our customers happy for a long time and determines you too. </p>
+                       <p>Trust in our reliability, quality and uniqueness.</p>
                 </div>
         <div class="pricing-box-container">
             <xsl:for-each select="sessions/session">
