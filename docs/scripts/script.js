@@ -38,6 +38,6 @@ function sendForm() {
     fields.message = document.getElementById('message').value;
     const msg = "Name: "+fields.fullname+ "%0Aemail: "+ fields.email+"%0ALocation: "+fields.customerLocaiton+"%0A"+fields.message
     const mail = "mailto:"+emailAddr+"?subject=enquiry&body="+msg;
-    window = window.open(mail, 'emailWindow')
+    window = window.open("", 'emailWindow')
 }
 

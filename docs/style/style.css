@@ -168,11 +168,11 @@ header h1 {
     font-family: FreeMono, monospace;
 }
 
-header h3{
+header h3 {
     font-family: Georgia, serif;
 }
 
-/
+
 /* slideshow */
 
 * {box-sizing: border-box;}
@@ -182,7 +182,7 @@ img {vertical-align: middle;}
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: auto;
+  max-width: 100%;
   position: relative;
   margin: auto;
 }
@@ -249,19 +249,16 @@ img {vertical-align: middle;}
 .about-section {
     margin-top:10px;
     text-align: center;
-    background-color: ;
     color: black;
     font-family: FreeMono, monospace;
     align-content: space-evenly;
     position: relative;
     line-height: 1.6;
     font-size:18px;
-    padding:10px;
     border-right-style: solid;
     border-left-style: solid;
-    margin-bottom:15px;
     background-image: url("../images/dots.jpeg");
-    background-repeat:no;
+    background-repeat: no-repeat;
     opacity:0.3;
     padding:2%;
     margin-bottom:30px;
@@ -277,7 +274,6 @@ hr.new2 {
 
 
 .about{
-	margin-top:10px;
     text-align: center;
     color: black;
     font-family: FreeMono, monospace;
@@ -287,8 +283,7 @@ hr.new2 {
 	  font-size:18px;
 	  border-right-style: solid;
 	  border-left-style: solid;
-	  margin-bottom:15px;
-	   background-repeat:no;
+	   background-repeat:no-repeat;
 	   opacity:0.3;
 	   padding:20px;
 	   margin-bottom:30px;
@@ -305,7 +300,7 @@ hr.new2 {
     padding:2%;
     display: flex;
     position: relative;
-    max-width: auto;
+    max-width: 100%;
 }
 
 .item-h{
@@ -473,17 +468,12 @@ hr.new2 {
 .item-d{
     color:black;
     position:relative;
-	padding-top:5%;
-    padding-left:5%;
-    position:relative;
-    padding-right:5%;
+    padding: 5%;
     background-color:#ead4be;
 	opacity:0.3;
     width:100%;
-    padding-top:5%;
-    padding-bottom:5%;
     justify-content:center;
-    max-width: auto;
+    max-width: 100%;
 }
 
 .item-d .btn {
@@ -554,7 +544,6 @@ div.desc {
 
 footer {
     text-align: center;
-    background-color: ;
     color: black;
 }
 
@@ -728,7 +717,6 @@ input, textarea{
 }
 
 .copyright a:link, a:visited {
-  background-color:tranparent;
   color: #6b6764;
   text-align: center;
   text-decoration: none;
