@@ -468,7 +468,10 @@ hr.new2 {
 .item-d{
     color:black;
     position:relative;
-    padding: 5%;
+    padding-left:5%;
+    padding-right:5%;
+    padding-top:5%;
+    padding-bottom:5%;
     background-color:#ead4be;
 	opacity:0.3;
     width:100%;
@@ -663,32 +666,33 @@ h5{
     background-color: #ffffff;
     color: #000;
 }
-.inquiry-main {
+.inquiry-main{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     width: 100%;
     padding: 2px;
     margin: 2px;
+    justify-content: center;
+    align-content: space-evenly;
 }
 .inquiry-form{
-    padding-left: 5%;
-    padding-right: 0;
-    margin-right: 0;
-    justify-content: right;
     flex-direction: column;
     width: 40%;
+    padding: 20px;
+}
+.inquiry-img img .column{
+    padding: 0;
+    width: 100%;
     height: 100%;
 }
-.inquiry-img img{
-    align-content: flex-start;
-    width: 26rem;
-    height: 100%;
-    justify-content: left;
+@media screen and (max-width: 700px) {
+    .inquiry-img img .column{width: 70%;
+        flex: fit-content}
+    .inquiry-form { width: fit-content;
+        height: 30%}
 }
-@media screen and (min-width: 1000px) {
-.inquiry-img img {width: 40rem}
-}
+
 input, textarea{
     box-shadow: none !important;
     border: none;
