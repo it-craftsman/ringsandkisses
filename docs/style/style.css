@@ -370,6 +370,13 @@ hr.new2 {
 }
 
 /* ---POST-----*/
+.post h1{
+	text-align:center;
+}
+
+.post h2{
+	text-align:center;
+}
 
 .column {
   float: left;
@@ -478,14 +485,16 @@ hr.new2 {
     justify-content:center;
     max-width: 100%;
 }
-
+.item-d h2 {
+	text-align:center;
+}
 .item-d .btn {
     position: relative;
     top: 50%;
-    left: 50%;
+	left:50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    background-color: #555;
+    background-color: #ebebeb;
     color: white;
     padding: 12px 24px;
     border: none;
@@ -495,7 +504,7 @@ hr.new2 {
 }
 
 .item-d .btn:hover {
-    background-color: black;
+    background-color: transparent;
 }
 
 /* --------*/
