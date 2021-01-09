@@ -95,9 +95,9 @@
                         </div>
                     </div>
                     <p>
-            <a href="rings&kisses@facebook.com" class="fa fa-facebook"></a>
-            <a href="rings&kisses@pinterest.com" class="fa fa-pinterest"></a>
-            <a href="rings&kisses@instagram.com" class="fa fa-instagram"></a>
+            <a href="rings&amp;kisses@facebook.com" class="fa fa-facebook"></a>
+            <a href="rings&amp;kisses@pinterest.com" class="fa fa-pinterest"></a>
+            <a href="rings&amp;kisses@instagram.com" class="fa fa-instagram"></a>
         </p>
                     <div class="copyright">
                         <a href="privacy.html">@copyright 2020 Rings&amp;Kisses</a>
