@@ -46,7 +46,7 @@
                 </div>
 
                 <header>
-                    <img src="images/logo.svg" alt="ringsandkisses" width="120" height="90"/>
+                    <img src="images/logo.svg" alt="ringsandkisses logo" width="120" height="90"/>
                     <h1>RINGS &amp; KISSES</h1>
                     <h3>Photography</h3>
                 </header>
