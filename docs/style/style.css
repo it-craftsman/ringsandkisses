@@ -58,7 +58,7 @@ body {
   position: absolute;
   background-color: transparent;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   z-index: 1;
 }
 
@@ -143,7 +143,6 @@ header {
 
 #text1{
     position: relative;
-    font-family:Lucida Sans Unicode;
 }
 
 #text2{
@@ -475,10 +474,7 @@ hr.new2 {
 .item-d{
     color:black;
     position:relative;
-    padding-left:5%;
-    padding-right:5%;
-    padding-top:5%;
-    padding-bottom:5%;
+    padding: 5%;
     background-color:#ead4be;
 	opacity:0.3;
     width:100%;
@@ -657,7 +653,7 @@ h5{
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 .btn-primary:hover {
-    box-shadow: 0px 2px 15px 0px rgba(0,0,0,0.5);
+    box-shadow: 0 2px 15px 0 rgba(0,0,0,0.5);
     transform: translateY(-3px);
 }
 

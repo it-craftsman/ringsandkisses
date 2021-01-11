@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+    <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     <xsl:template match="/">
         <html>
             <body>
@@ -95,9 +95,9 @@
                         </div>
                     </div>
                     <p>
-            <a href="rings&amp;kisses@facebook.com" class="fa fa-facebook"></a>
-            <a href="rings&amp;kisses@pinterest.com" class="fa fa-pinterest"></a>
-            <a href="rings&amp;kisses@instagram.com" class="fa fa-instagram"></a>
+            <a href="rings&amp;kisses@facebook.com" class="fa fa-facebook"/>
+            <a href="rings&amp;kisses@pinterest.com" class="fa fa-pinterest"/>
+            <a href="rings&amp;kisses@instagram.com" class="fa fa-instagram"/>
         </p>
                     <div class="copyright">
                         <a href="privacy.html">@copyright 2020 Rings&amp;Kisses</a>
