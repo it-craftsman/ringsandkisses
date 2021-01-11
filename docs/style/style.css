@@ -699,6 +699,7 @@ h5{
 }
 
 input, textarea{
+    font-family: inherit;
     box-shadow: none !important;
     border: none;
     width: 100%;
