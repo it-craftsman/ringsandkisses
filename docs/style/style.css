@@ -64,7 +64,7 @@ nav li:focus-within a {
     display: none;
     transition: all 0.5s ease;
     position: absolute;
-    background-color: transparent;
+    background-color:#ebebeb;
     min-width: 160px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     padding: 0;
@@ -164,9 +164,10 @@ header {
 }
 .banner{
     margin-top: 8%;
-    display: flex;
+    display: block;
     flex-flow: column;
     align-content: center;
+    overflow: visible;
 }
 .banner img{
     display: block;
