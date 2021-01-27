@@ -98,14 +98,19 @@ a.icon {
 
   }
    .top-nav a.icon {
-    float: right;
     display: block;
   }
 }
 
 @media screen and (max-width: 600px) {
+    .top-nav.responsive li:first-child {
+        float: right;
+        width: auto;
+    }
     .top-nav.responsive {
-        position: relative;
+        display: block;
+        position: center;
+        width: 100%;
     }
 
     .top-nav.responsive .icon {
@@ -119,26 +124,24 @@ a.icon {
         margin-bottom: 20%;
     }
 
-    .top-nav.responsive li .dropdown li,
+    .top-nav.responsive li .dropdown,
     .top-nav.responsive li {
         visibility: visible;
         left: 0;
         width: 100%;
+        position: relative;
     }
 
     .top-nav.responsive li,
     .top-nav.responsive .dropdown li:focus,
     .top-nav.responsive .dropdown li:focus-within {
-        float: left;
         display: block;
-        flex-wrap: wrap;
-        flex-flow: row;
     }
 
     .top-nav.responsive li ul.dropdown li {
-        position: relative;
+        display: block;
         flex-wrap: wrap;
-        flex-flow: row;
+        flex-flow: column;
         width: 100%;
     }
 
