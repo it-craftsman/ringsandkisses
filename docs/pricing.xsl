@@ -2,8 +2,7 @@
 
     <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     <xsl:template match="/">
-        <html>
-            <body>
+        <html xmlns="http://www.w3.org/1999/xhtml">
                 <head>
                     <title>Pricing for couple and wedding photography</title>
                     <meta charset="UTF-8"/>
@@ -21,13 +20,11 @@
                         "@type" : "Product",
                         "name" : "Bronze",
                         "description" : "Wedding photography session with 8 hours of accompaniment. Images are delivered in an online gallery including a download link. You will also receive 15 printed photos in a photo box",
-                        "brand" : [ {
+                        "brand" : {
                         "@type" : "Brand",
-                        "name" : "RINGS &amp; KISSES"
-                        }, {
-                        "@type" : "Brand",
-                        "name" : "Wedding Photography"
-                        } ],
+                        "name" : "RINGS &amp; KISSES",
+                        "logo" : "https://it-craftsman.github.io/ringsandkisses/images/logo.svg"
+                        },
                         "offers" : {
                         "@type" : "Offer",
                         "price" : "1990,00"
@@ -39,7 +36,8 @@
                         "description" : "Wedding photography session with 10 hours of accompaniment. Images are delivered in an online gallery including a download link. You will also receive 20 printed photos in a photo box.",
                         "brand" : {
                         "@type" : "Brand",
-                        "name" : "Wedding Photography"
+                        "name" : "RINGS &amp; KISSES",
+                        "logo" : "https://it-craftsman.github.io/ringsandkisses/images/logo.svg"
                         },
                         "offers" : {
                         "@type" : "Offer",
@@ -52,7 +50,8 @@
                         "description" : "Wedding photography session with 12 hours of accompaniment. Images are delivered in an online gallery including a download link. You will also receive 25 printed photos in a photo box.",
                         "brand" : {
                         "@type" : "Brand",
-                        "name" : "Wedding Photography"
+                        "name" : "RINGS &amp; KISSES",
+                        "logo" : "https://it-craftsman.github.io/ringsandkisses/images/logo.svg"
                         },
                         "offers" : {
                         "@type" : "Offer",
@@ -65,7 +64,8 @@
                         "description" : "Wedding photography session with 4 hours of accompaniment. Images are delivered in an online gallery including a download link.",
                         "brand" : {
                         "@type" : "Brand",
-                        "name" : "Wedding Photography"
+                        "name" : "RINGS &amp; KISSES",
+                        "logo" : "https://it-craftsman.github.io/ringsandkisses/images/logo.svg"
                         },
                         "offers" : {
                         "@type" : "Offer",
@@ -78,7 +78,8 @@
                         "description" : "Couple photography session with one hour of shooting time. Images are delivered in an online gallery including a download link.",
                         "brand" : {
                         "@type" : "Brand",
-                        "name" : "Couple Photography"
+                        "name" : "RINGS &amp; KISSES",
+                        "logo" : "https://it-craftsman.github.io/ringsandkisses/images/logo.svg"
                         },
                         "offers" : {
                         "@type" : "Offer",
@@ -91,7 +92,8 @@
                         "description" : "Couple photography session with one and a half hours of shooting time. Images are delivered in an online gallery including a download link.",
                         "brand" : {
                         "@type" : "Brand",
-                        "name" : "Couple Photography"
+                        "name" : "RINGS &amp; KISSES",
+                        "logo" : "https://it-craftsman.github.io/ringsandkisses/images/logo.svg"
                         },
                         "offers" : {
                         "@type" : "Offer",
@@ -100,6 +102,7 @@
                         } ]
                     </script>
                 </head>
+            <body>
                 <nav class="topnav" id="myTopnav">
                     <div class="dropdown">
                         <div class="dropbtn">Contact
