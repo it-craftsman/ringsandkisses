@@ -121,13 +121,13 @@
                                     <li><a href="couple.html">Couples Photography</a></li>
                                 </ul>
                             </li>
-                            <li><a href="#" aria-haspopup="true">Info</a>
+                            <li><a href="couple.html" aria-haspopup="true">Info</a>
                                 <ul class="dropdown">
                                     <li><a href="about.html">About Us</a></li>
                                     <li><a href="pricing.xhtml">Pricing</a></li>
                                 </ul>
                             </li>
-                            <li><a href="#" aria-haspopup="true">Contact</a>
+                            <li><a href="contact.html" aria-haspopup="true">Contact</a>
                                 <ul class="dropdown" aria-label="submenu">
                                     <li><a href="inquiry.html">Inquiry</a></li>
                                     <li><a href="imprint.html">Imprint</a></li>
@@ -141,6 +141,10 @@
                         <h3>Photography</h3>
                     </div>
                 </header>
+				  <ul class="breadcrumb">
+					<li><a href="index.html">Home</a></li>
+					<li>Pricing</li>
+				  </ul> 
                 <main>
                     <div class="about">
                         <h2>Pricing for couple and wedding photography</h2>
