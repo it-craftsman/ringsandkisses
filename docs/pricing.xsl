@@ -163,40 +163,41 @@
                     </div>
                 </main>
 
-                <footer>
-                    <h4 id="text3" >Follow me on Instagram</h4>
-                    <div class="responsive">
-                        <div class="gallery">
-                            <img src="images/gallery/TF-web-DSC07641.jpg" alt="Couple Photography" width="600" height="400"/>
-                        </div>
-                    </div>
+<footer>
+    <h3 id="text3" >Follow me on Instagram</h3>
+    <div class="responsive">
+        <div class="gallery">
+            <img src="images/gallery/TF-web-DSC07641.jpg" alt="Romance between newly married couple" width="600" height="400">
+        </div>
+    </div>
 
-                    <div class="responsive">
-                        <div class="gallery">
-                            <img src="images/gallery/post05-1.jpg" alt="Couple Photography" width="600" height="400"/>
-                        </div>
-                    </div>
+    <div class="responsive">
+        <div class="gallery">
+            <img src="images/gallery/post05-1.jpg" alt="Groom is holding a bride and kisses on a beach" width="600" height="400">
+        </div>
+    </div>
 
-                    <div class="responsive">
-                        <div class="gallery">
-                            <img src="images/gallery/post11.jpg" alt="Couple Photography" width="600" height="400"/>
-                        </div>
-                    </div>
+    <div class="responsive">
+        <div class="gallery">
+            <img src="images/gallery/post11.jpg" alt="Photograph of a couple sitting on stage to recieve greetings from guests" width="600" height="400">
+        </div>
+    </div>
 
-                    <div class="responsive">
-                        <div class="gallery">
-                            <img src="images/gallery/TF-web-DSC07487.jpg" alt="Couple Photography" width="600" height="400"/>
-                        </div>
-                    </div>
-                    <p>
-                        <a href="rings&amp;kisses@facebook.com" class="fa fa-facebook"></a>
-                        <a href="rings&amp;kisses@pinterest.com" class="fa fa-pinterest"></a>
-                        <a href="rings&amp;kisses@instagram.com" class="fa fa-instagram"></a>
+    <div class="responsive">
+        <div class="gallery">
+            <img src="images/gallery/TF-web-DSC07487.jpg" alt="Photograph of a newly married couple standing on a beach with flowers in grooms hand " width="600" height="400">
+        </div>
+    </div>
+    <div class="clearfix"></div>
+        <p>
+            <a class="fa fa-facebook"></a>
+            <a class="fa fa-pinterest"></a>
+            <a class="fa fa-instagram"></a>
         </p>
-                    <div class="copyright">
-                        <a href="privacy.html">@copyright 2020 Rings&amp;Kisses</a>
-                    </div>
-                </footer>
+		<div class="copyright">
+ <a href="privacy.html">@copyright 2020 Rings&amp;Kisses</a>
+</div>
+</footer>
             </body>
         </html>
     </xsl:template>
