@@ -138,7 +138,7 @@
                     <div class="banner">
                         <img src="images/logo.svg" alt="ringsandkisses logo" width="120" height="90"/>
                         <h1>RINGS &amp; KISSES</h1>
-                        <h3>Photography</h3>
+                        <h2>Photography</h2>
                     </div>
                 </header>
 				  <ul class="breadcrumb">
