@@ -24,15 +24,15 @@ ul.breadcrumb li {
 }
 ul.breadcrumb li+li:before {
   padding: 8px;
-  color: black;
+  color: #6b6764;
   content: "/\00a0";
 }
 ul.breadcrumb li a {
-  color: black;
+  color: #6b6764;
   text-decoration: none;
 }
 ul.breadcrumb li a:hover {
-  color: #01447e;
+  color: black;
   text-decoration: underline;
 }
 
