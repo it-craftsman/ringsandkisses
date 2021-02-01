@@ -334,11 +334,22 @@ img {vertical-align: middle;}
     font-size:18px;
     border-right-style: solid;
     border-left-style: solid;
-    background-image: url("../images/dots.jpeg");
-    background-repeat: no-repeat;
-    opacity:0.3;
     padding:2%;
     margin-bottom:30px;
+}
+.about-section::after {
+    content: "";
+    background-image: url("../images/dots.jpg");
+    background-repeat: repeat;
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
 }
 hr.new2 {
     border-top: 1px dashed black;
@@ -391,7 +402,7 @@ hr.new2 {
 
 .item-i{
     position:relative;
-    padding:5%;
+    padding-left:5%;
     font-size:20px;
 	color: black;
 }
@@ -530,8 +541,13 @@ hr.new2 {
 }
 
 .button:hover {
-  background-color: #555;
-  color:white;
+  background-color: black;
+  color:white
+}
+a .button:focus,
+a .button:visited{
+    background-color: black;
+    color: white;
 }
 
 @media screen and (max-width: 650px) {
@@ -553,8 +569,8 @@ hr.new2 {
     color:black;
     position:relative;
     padding: 5%;
+    opacity: 0.8;
     background-color:#ead4be;
-	opacity:0.3;
     width:100%;
     justify-content:center;
     max-width: 100%;
