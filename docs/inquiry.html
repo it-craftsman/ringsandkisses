@@ -81,28 +81,26 @@
                 We will not disappoint you. <br/>Contact us using this form.</strong></p>
         </div>
         <div class="inquiry-main">
-            <div class="inquiry-img column">
-                <img src="images/couple2/post15-3.jpg" alt="Couple image"/>
+            <div class="inquiry-img">
+                <img src="images/couple2/post15-3.jpg" alt="Couple image" width="400" height="600"/>
             </div>
-            <form class="inquiry-form inquiry-main column" method="get">
-                <h2>Show us your interest and just write to us. </h2>
-                <p>Your name<br/>
+            <form class="inquiry-form" method="get">
+                <h2>Show us your interest and just write to us.</h2>
+                <label><p>Your name</p>
+                        <input class="form-control" type="text" id="sender-name" name="sender-name" placeholder="Enter your full name">
+                    </label>
                     <label>
-                        <input class="form-control" type="text" id="sender-name" name="sender-name"> Write your full name
-                    </label></p>
-                <p>Email<br>
+                        <p>Email Address</p>
+                        <input class="form-control" type="email" id="email" name="email" placeholder="Enter your Email Address">
+                    </label>
                     <label>
-                        <input class="form-control" type="email" id="email" name="email">Your Email Address
-                    </label></p>
-                <p>Your Location <br/>
+                        <p>Your Location</p>
+                        <input class="form-control" type="text" id="location" name="location" placeholder="Enter your location">
+                    </label>
                     <label>
-                        <input class="form-control" type="text" id="location" name="location">Current location
-                    </label></p>
-                <p>Message<br/>
-                    <label>
-                        <textarea class="form-control" name="message" id="message" cols="50" rows="8">
-                        </textarea>Any Inquiry from your side
-                    </label></p>
+                        <p>Message</p>
+                        <textarea class="form-control" name="message" id="message" cols="50" rows="8" placeholder="Enter inquiry you would like us to respond to"></textarea>
+                    </label>
                 <noscript><p><button><a href="mailto:muster@musteremail.de">send</a></button></p></noscript>
                 <button onclick="sendForm();" type="submit" value="send" class="button">send</button>
             </form>

@@ -74,6 +74,11 @@ nav ul li:focus-within {
     color: black;
     cursor: pointer;
 }
+nav ul li:focus-within {
+    background-color: #717171;
+    color: white;
+    cursor: pointer;
+}
 nav a:hover,
 nav a:focus-within {
     color: inherit;
@@ -210,7 +215,10 @@ header {
   font-size: 25px;
   text-align: center;
   background-color:#ead4be;
-	opacity:0.3;
+	opacity:0.5;
+}
+h2{
+    overflow-wrap: break-word;
 }
 
 #text{
@@ -372,7 +380,7 @@ hr.new2 {
 	  border-right-style: solid;
 	  border-left-style: solid;
 	   background-repeat:no-repeat;
-	   opacity:0.3;
+	   opacity:0.5;
 	   padding:20px;
 	   margin-bottom:30px;
 }
@@ -403,7 +411,7 @@ hr.new2 {
 .item-i{
     position:relative;
     padding-left:5%;
-    font-size:20px;
+    padding-right:5%;
 	color: black;
 }
 
@@ -540,13 +548,19 @@ hr.new2 {
   width: 100%;
 }
 
-.button:hover {
-  background-color: black;
-  color:white
+.button:focus-within
+{
+    background-color: #717171;
+    color:white
 }
+.button:hover{
+    background-color: #6b6764;
+    color:white
+}
+
 a .button:focus,
 a .button:visited{
-    background-color: black;
+    background-color: #6b6764;
     color: white;
 }
 
@@ -767,29 +781,28 @@ h5{
 }
 .inquiry-main{
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
+    flex-direction: column;
+    flex-flow: wrap row;
     width: 100%;
     padding: 2px;
     margin: 2px;
     justify-content: center;
-    align-content: space-evenly;
+    align-content: space-between;
 }
 .inquiry-form{
-    flex-direction: column;
-    width: 40%;
     padding: 20px;
+    width: 25em;
 }
-.inquiry-img img .column{
-    padding: 0;
-    width: 100%;
-    height: 100%;
+.inquiry-img img{
 }
 @media screen and (max-width: 700px) {
-    .inquiry-img img .column{width: 70%;
+    .inquiry-img img {
         flex: fit-content}
     .inquiry-form { width: fit-content;
-        height: 30%}
+        padding-left: 20%;
+        height: 300%;
+    flex-grow: 1;}
+
 }
 
 input, textarea{
