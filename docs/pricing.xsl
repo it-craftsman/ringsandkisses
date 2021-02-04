@@ -4,7 +4,7 @@
     <xsl:template match="/">
         <html xmlns="http://www.w3.org/1999/xhtml">
                 <head>
-                    <title>Pricing for couple and wedding photography</title>
+                    <title>Pricing Packages for our photography | Rings &amp; Kisses </title>
                     <meta charset="UTF-8"/>
                     <meta name="viewport" content="width=device-width, initial-scale=1"/>
                     <link rel="stylesheet" href="style/style.css"/>
@@ -127,7 +127,7 @@
                                     <li><a href="pricing.xhtml">Pricing</a></li>
                                 </ul>
                             </li>
-                            <li><a href="contact.html" aria-haspopup="true">Contact</a>
+                            <li><a href="#" aria-haspopup="true">Contact</a>
                                 <ul class="dropdown" aria-label="submenu">
                                     <li><a href="inquiry.html">Inquiry</a></li>
                                     <li><a href="imprint.html">Imprint</a></li>
