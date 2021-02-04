@@ -70,13 +70,13 @@ nav a {
 
 nav ul li:hover,
 nav ul li:focus-within {
-    background-color: lightgray;
+    background-color: #bdbcbc;
     color: black;
     cursor: pointer;
 }
 nav ul li:focus-within {
-    background-color: #717171;
-    color: white;
+    background-color: #bdbcbc;
+    color: black;
     cursor: pointer;
 }
 nav a:hover,
@@ -548,14 +548,10 @@ hr.new2 {
   width: 100%;
 }
 
-.button:focus-within
-{
-    background-color: #717171;
-    color:white
-}
+.button:focus-within,
 .button:hover{
-    background-color: #6b6764;
-    color:white
+    background-color: #BDBCBC;
+    color:black
 }
 
 a .button:focus,
