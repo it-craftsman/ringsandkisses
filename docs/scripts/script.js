@@ -1,15 +1,24 @@
-
+// Return nav to original position
+window.addEventListener("resize", function () {
+    if (window.screenX >= 600) {
+        let x = document.getElementById("top-nav");
+        if (x.classList.contains("responsive")) {
+            x.classList.remove("responsive")
+        }
+    }
+});
 
 
 
 function myFunction() {
-  var x = document.getElementById("top-nav");
+    let x = document.getElementById("top-nav");
   if (x.className === "top-nav") {
     x.className += " responsive";
   } else {
     x.className = "top-nav";
   }
 }
+
 
 function sendForm() {
     const fields = {};

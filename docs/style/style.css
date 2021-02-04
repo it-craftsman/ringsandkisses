@@ -79,9 +79,9 @@ nav ul li:focus-within {
     color: black;
     cursor: pointer;
 }
-nav a:hover,
-nav a:focus-within {
-    color: inherit;
+nav ul li a:hover,
+nav ul li a:focus-within {
+    color: black;
     cursor: pointer;
 }
 
@@ -122,7 +122,6 @@ a.icon {
     float: right;
     display: none;
 }
-
 @media screen and (max-width: 600px) {
     .top-nav li:not(:first-child), .dropdown  {
     display: none;
