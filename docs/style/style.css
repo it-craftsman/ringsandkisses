@@ -709,17 +709,17 @@ h5{
     z-index: 1;
 }
 .pricing-box:nth-child(4n+1) {
-    background-image: linear-gradient(#ffffff, #e5b2a0) ;
+    background-image: linear-gradient(#ffffff, #eac3b0) ;
 }
 
 .pricing-box:nth-child(4n+2), .price:nth-child(4n+2){
     background-image: linear-gradient(#ffffff, #e5e3e3);
 }
 .pricing-box:nth-child(4n+3) {
-    background-image: linear-gradient(#ffffff, #fdddaf);
+    background-image: linear-gradient(#ffffff, #fadebb);
 }
 .pricing-box:nth-child(4n+4) {
-    background-image: linear-gradient(#ffffff, #f8cecd);
+    background-image: linear-gradient(#ffffff, #ffdbda);
 }
 .pricing-box h5 {
     text-transform: uppercase;
